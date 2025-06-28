@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 daoPlaneta.listplanetas);
         lv.setAdapter(planetaAdapter);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
+            @Override 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent=new Intent(getApplicationContext(),ActivityB.class);
                 //Setando objeto serializado no bundle
